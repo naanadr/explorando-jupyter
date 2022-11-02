@@ -5,7 +5,7 @@ Esse repositório contém o material utilizado no workshop "Explorando Jupyter: 
 
 ## Apresentação
 
-A apresentação utilizada pode ser encontrada no [link](https://www.canva.com/design/DAFPI2kA414/7mT6sRCaxHgntnIPywMilA/view?utm_content=DAFPI2kA414&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), ou no PDF # TODO
+A apresentação utilizada pode ser encontrada no [link](https://www.canva.com/design/DAFPI2kA414/7mT6sRCaxHgntnIPywMilA/view?utm_content=DAFPI2kA414&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), ou no [PDF](slide_coda2022.pdf)
 
 ## Ambiente de desenvolvimento
 
@@ -53,9 +53,6 @@ jupyter-lab
 
 Pronto, agora é só acessar no navegador a url [http://localhost:8888](http://localhost:8888)
 
+## Utilizando Jupyter Notebooks com R
 
-## Sugestão de ferramentas para escrever em Markwdown
-
-* [hackmd](https://hackmd.io/)
-* [markdit](https://markdit.com/new-doc)
-* [dillinger](https://dillinger.io/)
+Eu não sou uma usuária frequente de R, mas pesquisando na internet encontrei esse [tutorial](https://richpauloo.github.io/2018-05-16-Installing-the-R-kernel-in-Jupyter-Lab/) que explica como criar notebooks R no Jupyter. Talvez ele possa te ajudar o/s
