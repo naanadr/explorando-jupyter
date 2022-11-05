@@ -47,7 +47,7 @@ Você só precisa criar o ambiente uma unica vez. Para saber se o ambiente foi c
 
 ```bash
 ls
-```bash 
+``` 
 
 Você verá que foi criado uma pasta chamada `coda2022` \o/ 
 
