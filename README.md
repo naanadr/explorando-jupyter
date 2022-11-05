@@ -33,22 +33,24 @@ Nos comandos a cima, você instalou a versão `3.10.6` do python, entrou dentro 
 
 ### Instalando dependências
 
-A unica dependência desse projeto é o `jupyter-lab`, para instalar ele, execute no terminal:
+Para instalar as dependências desse projeto, execute
 
 ```bash 
-pip install jupyterlab
+pip3 install -r requirements.txt
 ```
 
-ou 
+Esse comando irá instalar todas as dependências necessárias para atibar o `jupyterlab` e executar o notebook de exemplo.
 
-```bash 
-conta install -c conda-forge jupyterlab
-```
+Para ativar o jupyterlab, execute:
 
-Para abrir o `jupyter-lab` execute no terminal:
-
-```bash 
+```bash
 jupyter-lab
+```
+
+Se esse comando não funcionar, execute:
+
+```bash
+python3 -m jupyter-lab
 ```
 
 Pronto, agora é só acessar no navegador a url [http://localhost:8888](http://localhost:8888)
