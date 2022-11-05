@@ -31,7 +31,45 @@ pyenv local 3.10.6
 
 Nos comandos a cima, você instalou a versão `3.10.6` do python, entrou dentro da pasta `explorando-jupyter` e definiu que dentro dessa pasta a versão do Python que será utilizada é a `3.10.6`. 
 
+### Criando um ambiente virtual
+
+Quando desenvolvemos código em Python, geralmente criamos ambientes virtuais. Eles são como um ambiente fechado de desenvolvimento, onde tudo o que instalarmos nele, será apenas dentro dele. Isso nós permite ter ambiente de desenvolvimento separados para cada projeto que fazemos. Caso você queira saber mais sobre isso, assista [essa palestra](https://youtu.be/abTLJtSjclg) que eu fiz na Python Brasil 2020.
+
+> Para executar os experimentos aqui mostrados, não é obrigatório criar um ambiente virtual.
+
+Para criar um ambiente virtual, execute (dentro da pasta `explorando-jupyter`):
+
+```bash 
+python3 -m venv coda2022
+```
+
+Você só precisa criar o ambiente uma unica vez. Para saber se o ambiente foi criado, execute no terminal: 
+
+```bash
+ls
+```bash 
+
+Você verá que foi criado uma pasta chamada `coda2022` \o/ 
+
+Para ativar o ambiente virtual, execute: 
+
+```bash
+source coda2022/bin/activate
+```
+
+Pronto o/ 
+
+Toda vez que você for trabalhar nesse projeto, execute esse comando no terminal. 
+
+Para desativar o ambiente, execute:
+
+```bash
+deactivate
+```
+
 ### Instalando dependências
+
+> Caso você for utilizar ambientes virtuais: Instale as dependencias APENAS após ativar o ambiente virtual. 
 
 Para instalar as dependências desse projeto, execute
 
